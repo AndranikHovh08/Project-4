@@ -1,0 +1,43 @@
+body{
+    background-color: blueviolet;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.hidediv{
+    background-image: linear-gradient(black, rgba(20, 20, 20, 0.0));
+    margin: 0;
+    height: 1000px;
+    width: 100%;
+    z-index: -1;
+}
+.maindiv{
+    margin: auto;
+    width: 500px;
+    padding: 50px;
+
+}
+
+.d2{
+    background-color: white ;
+    padding: 20px 50px 20px 50px;
+    border-radius: 15px;
+    margin: 50px;
+    display: none; 
+    width: 500px; 
+
+}
+.btn1{
+    height: 30px;
+    width: 100px;
+    color: white;
+    outline: auto white;
+    background-color: transparent;
+}
+.btn2{
+    height: 30px;
+    width: 100px;
+    color: red;
+    outline: auto red;
+    background-color: transparent;
+}
